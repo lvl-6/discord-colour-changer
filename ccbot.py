@@ -66,7 +66,7 @@ async def about(ctx):
         )
     embed_about.add_field(
         name = 'Source Code',
-        value = 'https://www.github.com/lvl-6/',
+        value = 'https://github.com/lvl-6/discord-colour-changer',
         inline = False
         )
 
