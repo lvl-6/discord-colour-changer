@@ -73,6 +73,9 @@ async def about(ctx):
     await ctx.send(embed=embed_about)
 
 
+# TODO
+# Allow non-role-managers to change their role colour, by using something
+# like "@commands.has_any_role(list_of_changeable_roles)"
 @bot.command()
 @commands.has_guild_permissions(manage_roles=True)
 async def cc(ctx, colour: str):
@@ -96,12 +99,6 @@ async def cc(ctx, colour: str):
         if role.name == highest_role_name:
             await role.edit( color = desired_colour )
 
-
-###############################################################################
-# Python functions
-###############################################################################
-
-# Nothing here
 
 ###############################################################################
 # Program Execution
