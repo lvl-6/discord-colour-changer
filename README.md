@@ -1,4 +1,4 @@
-#ccbot v0.6
+## ccbot v0.6
 
 This is a simple Discord.py bot for changing the colour of your highest role.
 
