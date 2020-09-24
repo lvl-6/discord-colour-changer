@@ -54,7 +54,7 @@ async def about(ctx):
     Show the "about" message
     """
     embed_about = discord.Embed(
-        title = 'About ccbot',
+        title = 'About ccbot v' + version,
         description = 'A simple bot for changing role colours.',
         color = 0x00ccff
         )
